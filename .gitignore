@@ -1,0 +1,102 @@
+# Compiled binaries
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# Executables (no extension or common patterns)
+Basics/*
+!Basics/*.cpp
+!Basics/*.h
+
+2D\ Vector\./*
+!2D\ Vector\/*.cpp
+!2D\ Vector\/*.h
+
+Binary\ Search/*
+!Binary\ Search/*.cpp
+!Binary\ Search/*.h
+
+Binary\ Search\ Assignment/*
+!Binary\ Search\ Assignment/*.cpp
+!Binary\ Search\ Assignment/*.h
+
+Additional\ Pointer/*
+!Additional\ Pointer/*.cpp
+!Additional\ Pointer/*.h
+
+Function/*
+!Function/*.cpp
+!Function/*.h
+
+Module\ 1\ Assignement/*
+!Module\ 1\ Assignement/*.cpp
+!Module\ 1\ Assignement/*.h
+
+Module\ 2\ Assignment/*
+!Module\ 2\ Assignment/*.cpp
+!Module\ 2\ Assignment/*.h
+
+One\ Dimensional\ Arrays/*
+!One\ Dimensional\ Arrays/*.cpp
+!One\ Dimensional\ Arrays/*.h
+
+Pointer/*
+!Pointer/*.cpp
+!Pointer/*.h
+
+pointer\ assignment/*
+!pointer\ assignment/*.cpp
+!pointer\ assignment/*.h
+
+ProblemsOn\ Recursion/*
+!ProblemsOn\ Recursion/*.cpp
+!ProblemsOn\ Recursion/*.h
+
+ProblemsOn\ sorting/*
+!ProblemsOn\ sorting/*.cpp
+!ProblemsOn\ sorting/*.h
+!ProblemsOn\ sorting/*.txt
+
+Recursions/*
+!Recursions/*.cpp
+!Recursions/*.h
+
+Sortings/*
+!Sortings/*.cpp
+!Sortings/*.h
+
+String/*
+!String/*.cpp
+!String/*.h
+
+String\ Assignment/*
+!String\ Assignment/*.cpp
+!String\ Assignment/*.h
+
+Time\ \&\ Space\ complexity/*
+!Time\ \&\ Space\ complexity/*.cpp
+!Time\ \&\ Space\ complexity/*.h
+
+Two\ Dimesional\ Array/*
+!Two\ Dimesional\ Array/*.cpp
+!Two\ Dimesional\ Array/*.h
+
+Vectors/*
+!Vectors/*.cpp
+!Vectors/*.h
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+
+# IDE
+.idea/
+*.swp
