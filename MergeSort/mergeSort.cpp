@@ -39,6 +39,8 @@ void mergeSort(vector<int>&v){
     //now merge both the sorted arrays
     
     merge(a,b,v);
+    a.clear(); // clear the temporary arrays to save space
+    b.clear();
 }    
 int main(){
     int arr[]={3,21,5,4,6,7};
