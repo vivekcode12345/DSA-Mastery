@@ -2,39 +2,111 @@
 
 A comprehensive C++ Data Structures and Algorithms learning repository documenting my journey through core DSA concepts.
 
-## 📚 Topics Covered
+## 📚 Recommended Study Sequence
 
-- **Basics** - Fundamental C++ concepts (arrays, loops, strings)
-- **1D Arrays** - Array operations, searching, and manipulation
-- **2D Arrays & Vectors** - Matrix operations and 2D data structures
-- **Pointers** - Pointer concepts, pointer arithmetic, and memory management
-- **Functions** - Function definitions, parameters, recursion basics
-- **Recursion** - Recursive algorithms, backtracking, problem-solving patterns
-- **Sorting** - Bubble sort, merge sort, quick sort, and other algorithms
-- **Binary Search** - Search optimization in sorted arrays
-- **Strings** - String manipulation and pattern matching
-- **Time & Space Complexity** - Algorithm analysis and optimization
+Use this order for first-time study and revision. Each step builds on the previous one.
+
+1. **01 Time & Space complexity** - Learn how to judge efficiency before solving problems.
+2. **02 Basics** - Start with C++ syntax, loops, conditionals, and simple patterns.
+3. **03 Function** - Learn modular code, parameter passing, and reusable problem solving.
+4. **04 One Dimensional Arrays** - Practice array traversal, insertion, deletion, and basic problem solving.
+5. **05 Vectors** - Understand dynamic arrays and how they differ from raw arrays.
+6. **06 2D Vector / 07 Two Dimensional Array** - Move to matrices, rows, columns, and nested traversal.
+7. **08 Pointer / 09 Additional Pointer / 10 Pointer Assignment** - Build memory and address intuition.
+8. **11 Recursions / 12 ProblemsOn Recursion** - Strengthen recursion, backtracking, and recursive thinking.
+9. **13 Sortings / 14 Problems On Sorting / 15 MergeSort / 16 quickSort / 17 Problems On Merge Quick Cyclic / 18 CyclicSort** - Study sorting patterns before advanced search techniques.
+10. **19 Binary Search / 20 Binary Search Assignment** - Learn optimization on sorted data and answer-based search.
+11. **21 String / 22 String Assignment** - Work on character arrays, string manipulation, and pattern problems.
+12. **23 Bit Manipulation** - Cover XOR, set bits, flipping bits, and compact problem solving.
+13. **24 prefixSum** - Learn prefix preprocessing for range queries.
+14. **25 Sliding Window / 26 Window** - Practice fixed and variable window techniques.
+15. **27 OOPS** - Move to object-oriented design once core problem-solving is strong.
+16. **28 Module 1 Assignment / 29 Module 2 Assignment** - Use these as mixed revision and checkpoint practice.
+
+## 📁 Folder Roadmap
+
+Inside each topic folder, the problem files are numbered in study order, starting from `01`.
+
+### Stage 1: Foundations
+
+- `01 Time & Space complexity/`
+- `02 Basics/`
+- `03 Function/`
+
+### Stage 2: Arrays and Memory
+
+- `04 One Dimensional Arrays/`
+- `05 Vectors/`
+- `06 2D Vector/`
+- `07 Two Dimensional Array/`
+- `08 Pointer/`
+- `09 Additional Pointer/`
+- `10 Pointer Assignment/`
+
+### Stage 3: Recursion and Sorting
+
+- `11 Recursions/`
+- `12 ProblemsOn Recursion/`
+- `13 Sortings/`
+- `14 Problems On Sorting/`
+- `15 MergeSort/`
+- `16 quickSort/`
+- `17 Problems On Merge Quick Cyclic/`
+- `18 CyclicSort/`
+
+### Stage 4: Search and Strings
+
+- `19 Binary Search/`
+- `20 Binary Search Assignment/`
+- `21 String/`
+- `22 String Assignment/`
+
+### Stage 5: Intermediate Patterns
+
+- `23 Bit Manipulation/`
+- `24 prefixSum/`
+- `25 Sliding Window/`
+- `26 Window/`
+
+### Stage 6: Higher-Level Practice
+
+- `27 OOPS/`
+- `28 Module 1 Assignment/`
+- `29 Module 2 Assignment/`
 
 ## 📁 Directory Structure
 
 ```
 My Dsa Journey/
-├── Basics/                      # Foundational concepts
-├── One Dimensional Arrays/      # 1D array problems and operations
-├── 2D Vector./                  # 2D arrays and vectors
-├── Pointer/                     # Pointer concepts
-├── Additional Pointer/          # Advanced pointer topics
-├── Function/                    # Function practice problems
-├── Recursions/                  # Recursive algorithm solutions
-├── ProblemsOn Recursion/        # Recursion-focused problems
-├── Sortings/                    # Sorting algorithm implementations
-├── ProblemsOn sorting/          # Sorting problem set
-├── Binary Search/               # Binary search algorithms
-├── Binary Search Assignment/    # Binary search problems
-├── String/                      # String algorithms
-├── String Assignment/           # String problem set
-├── Time & Space complexity/     # Complexity analysis notes
-└── Module Assignments/          # Complete module assignments
+├── 01 Time & Space complexity/     # Start here
+├── 02 Basics/
+├── 03 Function/
+├── 04 One Dimensional Arrays/
+├── 05 Vectors/
+├── 06 2D Vector/
+├── 07 Two Dimensional Array/
+├── 08 Pointer/
+├── 09 Additional Pointer/
+├── 10 Pointer Assignment/
+├── 11 Recursions/
+├── 12 ProblemsOn Recursion/
+├── 13 Sortings/
+├── 14 Problems On Sorting/
+├── 15 MergeSort/
+├── 16 quickSort/
+├── 17 Problems On Merge Quick Cyclic/
+├── 18 CyclicSort/
+├── 19 Binary Search/
+├── 20 Binary Search Assignment/
+├── 21 String/
+├── 22 String Assignment/
+├── 23 Bit Manipulation/
+├── 24 prefixSum/
+├── 25 Sliding Window/
+├── 26 Window/
+├── 27 OOPS/
+├── 28 Module 1 Assignment/
+└── 29 Module 2 Assignment/
 ```
 
 ## 🎯 Learning Objectives
@@ -44,6 +116,16 @@ My Dsa Journey/
 - Understand time and space complexity
 - Solve real-world coding problems
 - Build strong problem-solving skills
+
+## 🔁 Revision Order
+
+When revising, go in this same sequence but spend extra time on:
+
+1. Arrays and vectors
+2. Recursion and sorting
+3. Binary search and strings
+4. Bit manipulation, prefix sums, and sliding window
+5. Mixed assignment folders at the end
 
 ## 💻 How to Use
 
