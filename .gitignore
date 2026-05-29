@@ -5,6 +5,13 @@
 *.a
 *.so
 *.dylib
+*.dSYM/
+.build/
+
+# Common scratch files
+*.log
+*.tmp
+*.bak
 
 # Ignore generated files inside the numbered topic folders
 /[0-9][0-9] */*
@@ -25,4 +32,3 @@
 
 # IDE
 .idea/
-*.swp

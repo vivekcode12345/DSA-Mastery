@@ -136,11 +136,16 @@ When revising, go in this same sequence but spend extra time on:
    ./filename
    ```
 
-3. Review the code to understand different approaches to DSA problems
+3. In VS Code, use the task `C++: Run Current File` to compile and run the open `.cpp` file in the terminal. The compiled file is stored in a hidden `.build/` folder beside the source.
+4. Review the code to understand different approaches to DSA problems
+
+## ✅ GitHub Ready
+
+This repository is set up to keep only source code and documentation under version control. Generated binaries, local build folders, and editor metadata are ignored so pushes stay clean.
 
 ## 📈 Progress
 
-- **175+** C++ source files
+- **194** C++ source files
 - Organized by difficulty and topic
 - Complete solution explanations
 

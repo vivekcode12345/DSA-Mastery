@@ -14,7 +14,7 @@ int main(){
     v.push_back(6);
     cout<<v.capacity()<<endl; 
 
-    cout<<"The elemments are : "<<end;
+    cout<<"The elemments are : "<<endl;
     cout<<v[0]<<endl;
     cout<<v[1]<<endl;
     cout<<v[2]<<endl;
