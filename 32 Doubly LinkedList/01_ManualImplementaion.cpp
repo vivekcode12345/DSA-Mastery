@@ -38,6 +38,5 @@ int main(){
     c->prev=b;
     b->prev=a;
     display(a);
-    cout<<endl;
     disRev(d);
 }
