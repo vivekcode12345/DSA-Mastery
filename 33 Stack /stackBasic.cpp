@@ -10,5 +10,7 @@ int main(){
     st.push(30);//2
     st.pop();
     cout<<"Size of stack: "<<st.size()<<endl;
-
+    cout<<st.top()<<endl;
+    st.push(40);
+    cout<<st.top()<<endl;
 }
