@@ -64,54 +64,24 @@ Inside each topic folder, the problem files are numbered in study order, startin
 ### Stage 5: Intermediate Patterns
 
 - `23 Bit Manipulation/`
-- `24 prefixSum/`
-- `25 Sliding Window/`
-- `26 Window/`
+### Stage 7: Advanced Data Structures
 
-### Stage 6: Higher-Level Practice
+- `31 Linked List/`
+- `32 Doubly LinkedList/`
+- `33 Stack /
 
-- `27 OOPS/`
-- `28 Module 1 Assignment/`
-- `29 Module 2 Assignment/`
+...
 
-## 📁 Directory Structure
-
-```
-My Dsa Journey/
-├── 01 Time & Space complexity/     # Start here
-├── 02 Basics/
-├── 03 Function/
-├── 04 One Dimensional Arrays/
-├── 05 Vectors/
-├── 06 2D Vector/
-├── 07 Two Dimensional Array/
-├── 08 Pointer/
-├── 09 Additional Pointer/
-├── 10 Pointer Assignment/
-├── 11 Recursions/
-├── 12 ProblemsOn Recursion/
-├── 13 Sortings/
-├── 14 Problems On Sorting/
-├── 15 MergeSort/
-├── 16 quickSort/
-├── 17 Problems On Merge Quick Cyclic/
-├── 18 CyclicSort/
-├── 19 Binary Search/
-├── 20 Binary Search Assignment/
-├── 21 String/
-├── 22 String Assignment/
-├── 23 Bit Manipulation/
-├── 24 prefixSum/
-├── 25 Sliding Window/
-├── 26 Window/
 ├── 27 OOPS/
 ├── 28 Module 1 Assignment/
-└── 29 Module 2 Assignment/
-```
+├── 29 Module 2 Assignment/
+├── 31 Linked List/
+├── 32 Doubly LinkedList/
+└── 33 Stack /
 
-## 🎯 Learning Objectives
+...
 
-- Master fundamental DSA concepts
+- **212** C++ source files
 - Implement algorithms from scratch
 - Understand time and space complexity
 - Solve real-world coding problems
