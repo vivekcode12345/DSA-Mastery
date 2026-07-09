@@ -13,4 +13,6 @@ int main(){
     cout<<st.top()<<endl;
     st.push(40);
     cout<<st.top()<<endl;
+    st.pop();
+    cout<<st.top()<<endl;
 }
