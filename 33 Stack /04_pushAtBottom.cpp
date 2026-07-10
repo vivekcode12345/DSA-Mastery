@@ -10,14 +10,24 @@ void print(stack<int> st){
 }
 
 void pushAtBottom(stack<int> &st, int x){
-    if(st.size()==0){
-        st.push(x);
-        return;
+    // if(st.size()==0){
+    //     st.push(x);
+    //     return;
+    // }
+    // int num=st.top();
+    // st.pop();
+    // pushAtBottom(st,x);
+    // st.push(num);
+    stack<int>temp;
+    while(st.size()>0){
+        temp.push(st.top());
+        st.pop();
     }
-    int num=st.top();
-    st.pop();
-    pushAtBottom(st,x);
-    st.push(num);
+    st.push(x);
+    while(temp.size()>0){
+        st.push(temp.top());
+        temp.pop();
+    }
 }
 int main(){
     stack<int> st;
