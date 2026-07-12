@@ -1,9 +1,10 @@
 #include<iostream>
 #include<stack>
+#include<algorithm>
 using namespace std;
 string removeConsequtive(string s){
     stack<char>st;
-    for(int i=0;i<s.length();i++){
+    for(size_t i=0;i<s.length();i++){
         if(st.size()==0){
             st.push(s[i]);
         }else{
