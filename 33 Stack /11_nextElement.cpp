@@ -5,6 +5,10 @@ using namespace std;
 int main(){
     int arr[]={3,4,2,5,6,4,3,5,7};
     int size=sizeof(arr)/sizeof(arr[0]);
+    for(int i=0;i<size;i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
     vector<int> ans(size);
     ans[size-1]=-1;
     stack<int>st;
