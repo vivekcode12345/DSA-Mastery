@@ -8,6 +8,8 @@ int main(){
     q.push(2);
     q.push(3);
     cout<<q.front()<<endl;
-    
-
+    cout<<q.back()<<endl;
+    q.pop();
+    cout<<q.front()<<endl;
+    cout<<q.size()<<endl;
 }
