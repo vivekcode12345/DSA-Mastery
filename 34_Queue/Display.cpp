@@ -6,6 +6,16 @@ void display(queue<int>q){
         cout<<q.front()<<" ";
         q.pop(); 
     }
+     cout<<endl;
+}
+void display(queue<int>&q){
+    int n=q.size();
+    for(int i=0;i<n;i++){
+        int x= q.front();
+        cout<<x<<" "<<endl;
+        q.pop();
+        q.push(x);
+    }
     cout<<endl;
 }
 int main(){
