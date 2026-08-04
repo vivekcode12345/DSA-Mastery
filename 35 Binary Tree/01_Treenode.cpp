@@ -19,6 +19,10 @@ void display(Node * root){
     display(root->left);
     display(root->right);
 }
+int sum(Node * root){
+    if(root==NULL) return 0;
+    return root->val + sum(root->left) + sum(root->right);
+}
 int main(){
     Node * a= new Node(10);
     Node * b= new Node(20);
@@ -36,4 +40,6 @@ int main(){
     c->right=g;
 
     display(a);
+    cout<<endl;
+    cout<<"Sum: "<<sum(a)<<endl;
 }
