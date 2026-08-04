@@ -23,6 +23,10 @@ int sum(Node * root){
     if(root==NULL) return 0;
     return root->val + sum(root->left) + sum(root->right);
 }
+int size(Node * root){
+    if(root==NULL) return 0;
+    return 1 + size(root->left) + size(root->right);
+}
 int main(){
     Node * a= new Node(10);
     Node * b= new Node(20);
@@ -42,4 +46,5 @@ int main(){
     display(a);
     cout<<endl;
     cout<<"Sum: "<<sum(a)<<endl;
+    cout<<"Size: "<<size(a)<<endl;
 }
