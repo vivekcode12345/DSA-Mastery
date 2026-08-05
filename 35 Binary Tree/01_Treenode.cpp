@@ -27,6 +27,12 @@ int size(Node * root){
     if(root==NULL) return 0;
     return 1 + size(root->left) + size(root->right);
 }
+int maxNode(Node * root){
+    if(root==NULL) return INT_MIN;
+    int leftMax=maxNode(root->left);
+    int rightMax=maxNode(root->right);
+    return max(root->val,max(leftMax,rightMax));
+}
 int main(){
     Node * a= new Node(10);
     Node * b= new Node(20);
@@ -47,4 +53,5 @@ int main(){
     cout<<endl;
     cout<<"Sum: "<<sum(a)<<endl;
     cout<<"Size: "<<size(a)<<endl;
+    cout<<"Max: "<<maxNode(a)<<endl;
 }
