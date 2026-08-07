@@ -1,131 +1,97 @@
 # My DSA Journey 🚀
 
-A comprehensive C++ Data Structures and Algorithms learning repository documenting my journey through core DSA concepts.
+This repository documents my C++ practice and learning journey in Data Structures and Algorithms. It contains topic-wise programs, problem solutions, and revision material from basic syntax to advanced concepts.
 
-## 📚 Recommended Study Sequence
+## 📚 What this repository covers
 
-Use this order for first-time study and revision. Each step builds on the previous one.
+The folders are arranged in a study-friendly order so each topic builds on the previous one.
 
-1. **01 Time & Space complexity** - Learn how to judge efficiency before solving problems.
-2. **02 Basics** - Start with C++ syntax, loops, conditionals, and simple patterns.
-3. **03 Function** - Learn modular code, parameter passing, and reusable problem solving.
-4. **04 One Dimensional Arrays** - Practice array traversal, insertion, deletion, and basic problem solving.
-5. **05 Vectors** - Understand dynamic arrays and how they differ from raw arrays.
-6. **06 2D Vector / 07 Two Dimensional Array** - Move to matrices, rows, columns, and nested traversal.
-7. **08 Pointer / 09 Additional Pointer / 10 Pointer Assignment** - Build memory and address intuition.
-8. **11 Recursions / 12 ProblemsOn Recursion** - Strengthen recursion, backtracking, and recursive thinking.
-9. **13 Sortings / 14 Problems On Sorting / 15 MergeSort / 16 quickSort / 17 Problems On Merge Quick Cyclic / 18 CyclicSort** - Study sorting patterns before advanced search techniques.
-10. **19 Binary Search / 20 Binary Search Assignment** - Learn optimization on sorted data and answer-based search.
-11. **21 String / 22 String Assignment** - Work on character arrays, string manipulation, and pattern problems.
-12. **23 Bit Manipulation** - Cover XOR, set bits, flipping bits, and compact problem solving.
-13. **24 prefixSum** - Learn prefix preprocessing for range queries.
-14. **25 Sliding Window / 26 Window** - Practice fixed and variable window techniques.
-15. **27 OOPS** - Move to object-oriented design once core problem-solving is strong.
-16. **28 Module 1 Assignment / 29 Module 2 Assignment** - Use these as mixed revision and checkpoint practice.
+### Foundations
+- 01 Time & Space complexity
+- 02 Basics
+- 03 Function
 
-## 📁 Folder Roadmap
+### Arrays and Memory
+- 04 One Dimensional Arrays
+- 05 Vectors
+- 06 2D Vector
+- 07 Two Dimensional Array
+- 08 Pointer
+- 09 Additional Pointer
+- 10 Pointer Assignment
 
-Inside each topic folder, the problem files are numbered in study order, starting from `01`.
+### Recursion, Sorting, and Search
+- 11 Recursions
+- 12 ProblemsOn Recursion
+- 13 Sortings
+- 14 Problems On Sorting
+- 15 MergeSort
+- 16 quickSort
+- 17 Problems On Merge Quick Cyclic
+- 18 CyclicSort
+- 19 Binary Search
+- 20 Binary Search Assignment
 
-### Stage 1: Foundations
+### Strings, Bits, and Patterns
+- 21 String
+- 22 String Assignment
+- 23 Bit Manipulation
+- 24 prefixSum
+- 25 Sliding Window
+- 26 Window
 
-- `01 Time & Space complexity/`
-- `02 Basics/`
-- `03 Function/`
+### OOP and Advanced Topics
+- 27 OOPS
+- 28 Module 1 Assignment
+- 29 Module 2 Assignment
+- 30 PrimeNumber & Maths
+- 31 Linked List
+- 32 Doubly LinkedList
+- 33 Stack
+- 34_Queue
+- 35 Binary Tree
 
-### Stage 2: Arrays and Memory
+## 🧠 Study flow
 
-- `04 One Dimensional Arrays/`
-- `05 Vectors/`
-- `06 2D Vector/`
-- `07 Two Dimensional Array/`
-- `08 Pointer/`
-- `09 Additional Pointer/`
-- `10 Pointer Assignment/`
+A good order for learning or revising is:
 
-### Stage 3: Recursion and Sorting
+1. Understand complexity and basics
+2. Practice arrays, vectors, and pointers
+3. Learn recursion and sorting techniques
+4. Study binary search, strings, and sliding window
+5. Move to OOP, linked lists, stacks, queues, and trees
 
-- `11 Recursions/`
-- `12 ProblemsOn Recursion/`
-- `13 Sortings/`
-- `14 Problems On Sorting/`
-- `15 MergeSort/`
-- `16 quickSort/`
-- `17 Problems On Merge Quick Cyclic/`
-- `18 CyclicSort/`
+## ▶️ How to run the programs
 
-### Stage 4: Search and Strings
+Each topic folder contains multiple .cpp files. You can run them in either of these ways:
 
-- `19 Binary Search/`
-- `20 Binary Search Assignment/`
-- `21 String/`
-- `22 String Assignment/`
+```bash
+g++ filename.cpp -o filename
+./filename
+```
 
-### Stage 5: Intermediate Patterns
+A helper script is also included:
 
-- `23 Bit Manipulation/`
-### Stage 7: Advanced Data Structures
+```bash
+./run_cpp.sh path/to/file.cpp
+```
 
-- `31 Linked List/`
-- `32 Doubly LinkedList/`
-- `33 Stack /
+This script compiles the C++ file and runs it from the same folder, storing the binary in a local .build directory.
 
-...
+## 📈 Repository status
 
-├── 27 OOPS/
-├── 28 Module 1 Assignment/
-├── 29 Module 2 Assignment/
-├── 31 Linked List/
-├── 32 Doubly LinkedList/
-└── 33 Stack /
+- 246 C++ source files
+- Organized by topic and difficulty
+- Includes practice solutions, assignments, and core DSA concepts
 
-...
+## ✨ Learning goals
 
-- **212** C++ source files
-- Implement algorithms from scratch
-- Understand time and space complexity
-- Solve real-world coding problems
-- Build strong problem-solving skills
-
-## 🔁 Revision Order
-
-When revising, go in this same sequence but spend extra time on:
-
-1. Arrays and vectors
-2. Recursion and sorting
-3. Binary search and strings
-4. Bit manipulation, prefix sums, and sliding window
-5. Mixed assignment folders at the end
-
-## 💻 How to Use
-
-1. Each topic folder contains multiple `.cpp` files with individual problem solutions
-2. Compile and run any file using:
-   ```bash
-   g++ filename.cpp -o filename
-   ./filename
-   ```
-
-3. In VS Code, use the task `C++: Run Current File` to compile and run the open `.cpp` file in the terminal. The compiled file is stored in a hidden `.build/` folder beside the source.
-4. Review the code to understand different approaches to DSA problems
-
-## ✅ GitHub Ready
-
-This repository is set up to keep only source code and documentation under version control. Generated binaries, local build folders, and editor metadata are ignored so pushes stay clean.
-
-## 📈 Progress
-
-- **194** C++ source files
-- Organized by difficulty and topic
-- Complete solution explanations
-
-## 🎓 Key Learning Points
-
-- Data structure selection and implementation
-- Algorithm optimization techniques
-- Real-time problem-solving strategies
-- Code efficiency and readability
+This repository is meant to help build:
+- strong problem-solving habits
+- confidence with C++ syntax and logic
+- a solid foundation in data structures and algorithms
+- better understanding of time and space complexity
 
 ---
 
-**Note**: This repository represents my continuous learning journey in Data Structures and Algorithms. Feel free to explore, learn, and contribute!
+This is a continuous learning repository, and it will keep growing as I progress through more DSA topics.
