@@ -40,25 +40,55 @@ Node* construct(int arr[],int n){
     return root;
 
 }
-void levelOrderQueue(Node * root){
-    if(root==NULL) return;
-    queue<Node*> q;
-    q.push(root);
-    while(!q.empty()){
-        Node * curr=q.front();
-        q.pop();
-        cout<<curr->val<<" ";
-        if(curr->left!=NULL) q.push(curr->left);
-        if(curr->right!=NULL) q.push(curr->right);
+void nth(Node * root,int curr,int level){
+    if(root==NULL){
+        return;
     }
-    cout<<endl;
+    if(curr==level){
+        cout<<root->val<<" ";
+        return;
+    }
+    nth(root->left,curr+1,level);
+    nth(root->right,curr+1,level);
+}
+int levels(Node * root){
+    if(root==NULL) return 0;
+    return 1 + max(levels(root->left),levels(root->right));
+}
+void levelorder(Node * root){
+    int n=levels(root);
+    for(int i=1;i<=n;i++){
+        nth(root,1,i);
+        cout<<endl;
+    }
 }
 
-
+void HorLevel(Node *root,int &min_level,int &max_level,int level){
+    if(root==NULL) return;
+    min_level=min(min_level,level);
+    max_level=max(max_level,level);
+    HorLevel(root->left,min_level,max_level,level-1);
+    HorLevel(root->right,min_level,max_level,level+1);
+}
+void topview(vector<int> &top,Node * root,int level){
+    if(root==NULL) return;
+    if(top[level]==INT_MIN){
+        top[level]=root->val;
+    }
+    topview(top,root->left,level-1);
+    topview(top,root->right,level+1);
+}
 int main(){
     int arr[]={1,2,3,4,5,INT_MIN,6,INT_MIN,9,INT_MIN,INT_MIN,7,INT_MIN,INT_MIN,INT_MIN,8};
     int n=sizeof(arr)/sizeof(arr[0]);
     Node * root= construct(arr,n);
-    levelOrderQueue(root);
-   
+    int min_level=0;
+    int max_level=0;
+    HorLevel(root,min_level,max_level,0);
+    int horzontal_levels=max_level-min_level+1;
+    vector<int>top(horzontal_levels,INT_MIN);
+    topview(top,root,-min_level);
+    for(int i=0;i<top.size();i++){
+       cout<<top[i]<<" ";
+    }
 }
